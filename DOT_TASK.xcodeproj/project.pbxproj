@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0387A7255D918D007F02B6 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0387A6255D918D007F02B6 /* ApiManager.swift */; };
+		2E0387A9255D91B4007F02B6 /* AppointmentsHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0387A8255D91B4007F02B6 /* AppointmentsHistory.swift */; };
+		2E0387AB255E1E50007F02B6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0387AA255E1E50007F02B6 /* Utility.swift */; };
 		2E1DE773255CF0F400F8331B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE772255CF0F400F8331B /* AppDelegate.swift */; };
 		2E1DE775255CF0F400F8331B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE774255CF0F400F8331B /* SceneDelegate.swift */; };
 		2E1DE777255CF0F400F8331B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE776255CF0F400F8331B /* ViewController.swift */; };
 		2E1DE77A255CF0F400F8331B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DE778255CF0F400F8331B /* Main.storyboard */; };
 		2E1DE77C255CF0FA00F8331B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DE77B255CF0FA00F8331B /* Assets.xcassets */; };
 		2E1DE77F255CF0FA00F8331B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DE77D255CF0FA00F8331B /* LaunchScreen.storyboard */; };
+		2E1DE787255CFC3600F8331B /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE786255CFC3600F8331B /* AppointmentViewController.swift */; };
+		2E1DE789255D0A8B00F8331B /* AddAppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE788255D0A8B00F8331B /* AddAppointmentsViewController.swift */; };
+		2E1DE78C255D156600F8331B /* AppointmentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE78A255D156600F8331B /* AppointmentListTableViewCell.swift */; };
+		2E1DE78D255D156600F8331B /* AppointmentListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DE78B255D156600F8331B /* AppointmentListTableViewCell.xib */; };
+		C1F11D281FE3291F172E4384 /* Pods_DOT_TASK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D364D34CDA968AA7CDBE7D7 /* Pods_DOT_TASK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E0387A6255D918D007F02B6 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		2E0387A8255D91B4007F02B6 /* AppointmentsHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsHistory.swift; sourceTree = "<group>"; };
+		2E0387AA255E1E50007F02B6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		2E1DE76F255CF0F400F8331B /* DOT_TASK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOT_TASK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1DE772255CF0F400F8331B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E1DE774255CF0F400F8331B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		2E1DE77B255CF0FA00F8331B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1DE77E255CF0FA00F8331B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E1DE780255CF0FA00F8331B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1DE786255CFC3600F8331B /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		2E1DE788255D0A8B00F8331B /* AddAppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppointmentsViewController.swift; sourceTree = "<group>"; };
+		2E1DE78A255D156600F8331B /* AppointmentListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListTableViewCell.swift; sourceTree = "<group>"; };
+		2E1DE78B255D156600F8331B /* AppointmentListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentListTableViewCell.xib; sourceTree = "<group>"; };
+		5D364D34CDA968AA7CDBE7D7 /* Pods_DOT_TASK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOT_TASK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82914369825E4B57CF8F2D7E /* Pods-DOT_TASK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOT_TASK.debug.xcconfig"; path = "Target Support Files/Pods-DOT_TASK/Pods-DOT_TASK.debug.xcconfig"; sourceTree = "<group>"; };
+		A4852A6A578E0AA1D5AA2A3E /* Pods-DOT_TASK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOT_TASK.release.xcconfig"; path = "Target Support Files/Pods-DOT_TASK/Pods-DOT_TASK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F11D281FE3291F172E4384 /* Pods_DOT_TASK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0387AC2560E9B3007F02B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E0387A6255D918D007F02B6 /* ApiManager.swift */,
+				2E0387A8255D91B4007F02B6 /* AppointmentsHistory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E0387AD2560E9BC007F02B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E1DE78B255D156600F8331B /* AppointmentListTableViewCell.xib */,
+				2E1DE778255CF0F400F8331B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E0387AE2560E9CF007F02B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E1DE786255CFC3600F8331B /* AppointmentViewController.swift */,
+				2E1DE788255D0A8B00F8331B /* AddAppointmentsViewController.swift */,
+				2E1DE78A255D156600F8331B /* AppointmentListTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2E1DE766255CF0F400F8331B = {
 			isa = PBXGroup;
 			children = (
 				2E1DE771255CF0F400F8331B /* DOT_TASK */,
 				2E1DE770255CF0F400F8331B /* Products */,
+				7296A96576BF59495FAB54A4 /* Pods */,
+				E02AF8C5B1FE7F7C99496FB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +107,33 @@
 			children = (
 				2E1DE772255CF0F400F8331B /* AppDelegate.swift */,
 				2E1DE774255CF0F400F8331B /* SceneDelegate.swift */,
+				2E0387AA255E1E50007F02B6 /* Utility.swift */,
 				2E1DE776255CF0F400F8331B /* ViewController.swift */,
-				2E1DE778255CF0F400F8331B /* Main.storyboard */,
+				2E0387AC2560E9B3007F02B6 /* Model */,
+				2E0387AD2560E9BC007F02B6 /* View */,
+				2E0387AE2560E9CF007F02B6 /* Controller */,
 				2E1DE77B255CF0FA00F8331B /* Assets.xcassets */,
 				2E1DE77D255CF0FA00F8331B /* LaunchScreen.storyboard */,
 				2E1DE780255CF0FA00F8331B /* Info.plist */,
 			);
 			path = DOT_TASK;
+			sourceTree = "<group>";
+		};
+		7296A96576BF59495FAB54A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82914369825E4B57CF8F2D7E /* Pods-DOT_TASK.debug.xcconfig */,
+				A4852A6A578E0AA1D5AA2A3E /* Pods-DOT_TASK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E02AF8C5B1FE7F7C99496FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D364D34CDA968AA7CDBE7D7 /* Pods_DOT_TASK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E1DE783255CF0FA00F8331B /* Build configuration list for PBXNativeTarget "DOT_TASK" */;
 			buildPhases = (
+				D77DE51F52AF158ECCF57089 /* [CP] Check Pods Manifest.lock */,
 				2E1DE76B255CF0F400F8331B /* Sources */,
 				2E1DE76C255CF0F400F8331B /* Frameworks */,
 				2E1DE76D255CF0F400F8331B /* Resources */,
+				3D192BEF1A86761AFF8D7562 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +198,67 @@
 			files = (
 				2E1DE77F255CF0FA00F8331B /* LaunchScreen.storyboard in Resources */,
 				2E1DE77C255CF0FA00F8331B /* Assets.xcassets in Resources */,
+				2E1DE78D255D156600F8331B /* AppointmentListTableViewCell.xib in Resources */,
 				2E1DE77A255CF0F400F8331B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D192BEF1A86761AFF8D7562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DOT_TASK/Pods-DOT_TASK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DOT_TASK/Pods-DOT_TASK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DOT_TASK/Pods-DOT_TASK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77DE51F52AF158ECCF57089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DOT_TASK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E1DE76B255CF0F400F8331B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0387A9255D91B4007F02B6 /* AppointmentsHistory.swift in Sources */,
+				2E1DE789255D0A8B00F8331B /* AddAppointmentsViewController.swift in Sources */,
+				2E0387AB255E1E50007F02B6 /* Utility.swift in Sources */,
+				2E1DE787255CFC3600F8331B /* AppointmentViewController.swift in Sources */,
 				2E1DE777255CF0F400F8331B /* ViewController.swift in Sources */,
+				2E0387A7255D918D007F02B6 /* ApiManager.swift in Sources */,
+				2E1DE78C255D156600F8331B /* AppointmentListTableViewCell.swift in Sources */,
 				2E1DE773255CF0F400F8331B /* AppDelegate.swift in Sources */,
 				2E1DE775255CF0F400F8331B /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +402,7 @@
 		};
 		2E1DE784255CF0FA00F8331B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82914369825E4B57CF8F2D7E /* Pods-DOT_TASK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +415,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aakashsinha.DOT-TASK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2E1DE785255CF0FA00F8331B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4852A6A578E0AA1D5AA2A3E /* Pods-DOT_TASK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aakashsinha.DOT-TASK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
